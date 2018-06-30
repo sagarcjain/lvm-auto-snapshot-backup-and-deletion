@@ -69,5 +69,5 @@ function CopyContentBackup
   unmount /tmp/lvmsnap || exit 1
   
   /sbin/lvremove -f "$VG/$NEW_VOLUME" || exit 1 
-
+  fi
 }
